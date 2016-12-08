@@ -36,4 +36,15 @@
     <text>We asked for an extension and he gave you two(!) extra days!! :)</text>
     <rating>5</rating>
   </feedback>
+  <feedback>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text/><rating>4</rating>
+  </feedback>
+  <feedback>
+    <module>BDA</module>
+    <semester>Sem1_2016-17</semester>
+    <text>I like Statistics, but I am afraid of Outliers...</text>
+    <rating>4</rating>
+  </feedback>
 </feedbacks>

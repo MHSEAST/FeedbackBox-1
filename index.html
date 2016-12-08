@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-</head>
+</head>  
 <body>
 
 <div class="jumbotron text-center">
-  <a href="php/feedbackDisplay.php"><img src="FeedbackBox.svg" class="img-fluid" alt="Feedback Box" width="250" ></a>
+  <a href="php/feedbackDisplay.php"><img src="FeedbackBox.svg" class="img-fluid" alt="Feedback Box" width="250"></a>
 </div>
   
 <div class="container">
@@ -27,6 +27,7 @@
         <option value="BDA">Business Data Analytics</option>
      </select>
     </div>
+    
     <div class="form-group">
       <label for="semester">Semester: </label>
       <select class="custom-select" id="semester" name="semester">
@@ -37,8 +38,8 @@
     </div>
     
     <div class="form-group">
-      <label for="feedback-ta-label">Feedback: </label>
-      <textarea class="form-control" id="feedback-textarea" rows="3" style="min-width: 100%"></textarea>
+      <label for="text">Feedback: </label>
+      <textarea class="form-control" id="text" name="text" rows="3" style="min-width: 100%"></textarea>
     </div>
     
     <div class="form-group">
@@ -49,12 +50,11 @@
       <label class="radio-inline"><input type="radio" name="rating" value="5">:))</label> 
     </div>
     
-    <input id="submit" name="submit" type="submit" class="btn btn-primary" value="Drop into Box" />
+    <input id="submit" name="submit" type="submit" value="Drop into Box" class="btn btn-primary">
     
-  </form>
+  </form>  
   
 </div>
 
 </body>
-
 </html>

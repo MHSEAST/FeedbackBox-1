@@ -24,4 +24,16 @@
     <text>Ralf moves too fast through the material.</text>
     <rating>1</rating>
   </feedback>
-<feedback><module>AI</module><semester>Sem1_2016-17</semester><text>The lecturer told us if he would tell us any more about the CA, he would start doing it for us. This is not fair!</text><rating>1</rating></feedback><feedback><module>BDA</module><semester>Sem1_2016-17</semester><text>We asked for an extension and he gave you two(!) extra days!! :)</text><rating>5</rating></feedback><feedback><module>WAD</module><semester>Sem1_2016-17</semester><text/><rating>1</rating></feedback></feedbacks>
+  <feedback>
+     <module>AI</module>
+    <semester>Sem1_2016-17</semester>
+    <text>The lecturer told us if he would tell us any more about the CA, he would start doing it for us. This is not fair!</text>
+    <rating>1</rating>
+  </feedback>
+  <feedback>
+    <module>BDA</module>
+    <semester>Sem1_2016-17</semester>
+    <text>We asked for an extension and he gave you two(!) extra days!! :)</text>
+    <rating>5</rating>
+  </feedback>
+</feedbacks>

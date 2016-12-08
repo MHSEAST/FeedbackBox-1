@@ -47,4 +47,34 @@
     <text>I like Statistics, but I am afraid of Outliers...</text>
     <rating>4</rating>
   </feedback>
+  <feedback>
+    <module>AI</module>
+    <semester>Sem1_2016-17</semester>
+    <text>They said they help us, but little was done for us. We even had to program the code ourselves!</text>
+    <rating>1</rating>
+  </feedback>
+  <feedback>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text>Sometimes when I close my eyes, I see PHP!</text>
+    <rating>3</rating>
+  </feedback>
+  <feedback>
+    <module>BDA</module>
+    <semester>Sem1_2016-17</semester>
+    <text>Sometimes I dream that I am normally distributed!</text>
+    <rating>3</rating>
+  </feedback>
+  <feedback>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text>I do not like the module. My code never works and I think my lecturer does that to annoy me...</text>
+    <rating>2</rating>
+  </feedback>
+  <feedback>
+    <module>AI</module>
+    <semester>Sem1_2016-17</semester>
+    <text>Great!</text>
+    <rating>5</rating>
+  </feedback>
 </feedbacks>

@@ -1,6 +1,27 @@
 <?xml version="1.0"?>
 <feedbacks>
   <feedback>
-    <text>Gosh, i hope this works now...</text>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text>It was alright. I did not need to learn much as I knew a lot about XML and PHP already.</text>
+    <rating>2</rating>
   </feedback>
-<feedback><text>3rd Time</text></feedback><feedback><text>Wow, so much feedback...</text></feedback></feedbacks>
+  <feedback>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text>i like it!</text>
+    <rating>5</rating>
+  </feedback>
+  <feedback>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text>The lecturer did not pay attention to my problems.</text>
+    <rating>1</rating>
+  </feedback>
+  <feedback>
+    <module>WAD</module>
+    <semester>Sem1_2016-17</semester>
+    <text>Ralf moves too fast through the material.</text>
+    <rating>1</rating>
+  </feedback>
+<feedback><module>AI</module><semester>Sem1_2016-17</semester><text>The lecturer told us if he would tell us any more about the CA, he would start doing it for us. This is not fair!</text><rating>1</rating></feedback><feedback><module>BDA</module><semester>Sem1_2016-17</semester><text>We asked for an extension and he gave you two(!) extra days!! :)</text><rating>5</rating></feedback><feedback><module>WAD</module><semester>Sem1_2016-17</semester><text/><rating>1</rating></feedback></feedbacks>

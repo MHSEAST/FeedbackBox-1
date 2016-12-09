@@ -10,50 +10,26 @@
 </head>  
 <body>
 
-<div class="jumbotron text-center">
-  <a href="php/feedbackDisplay.php"><img src="FeedbackBox.svg" class="img-fluid" alt="Feedback Box" width="250"></a>
-</div>
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>  
+
+  
   
 <div class="container">
+  <img src="FeedbackBox.svg" alt="feedback box" width="300">
+    
   
-  <!--  form --> 
-  <form method="post" action="php/feedbackProcessor.php">
+  <div class="btn-group-vertical">
+    <a href="form.html" class="btn btn-primary" >Give Feedback</a>
+    <a href="php/feedbackDisplay.php" class="btn btn-success" >View Feedback</a>
+    <a href="php/feedbackDisplaySpecific.php" class="btn btn-info">View Specific Feedback</a>
+  </div>
     
-    <div class="form-group">
-      <label for="module">Module: </label>
-      <select class="custom-select" id="module" name="module">
-        <option value="WAD">Web Application Development</option>
-        <option value="AI">Introduction to Artificial Intelligence</option>
-        <option value="BDA">Business Data Analytics</option>
-     </select>
-    </div>
-    
-    <div class="form-group">
-      <label for="semester">Semester: </label>
-      <select class="custom-select" id="semester" name="semester">
-        <option value="Sem1_2016-17">Sem 1, 2016/17</option>
-        <option value="Sem2_2017">Sem 2, 2017</option>
-        <option value="Sem1_2017-18">Sem 1, 2017/18</option>
-     </select>
-    </div>
-    
-    <div class="form-group">
-      <label for="text">Feedback: </label>
-      <textarea class="form-control" id="text" name="text" rows="3" style="min-width: 100%"></textarea>
-    </div>
-    
-    <div class="form-group">
-      <label class="radio-inline"><input type="radio" name="rating" value="1">:((</label>
-      <label class="radio-inline"><input type="radio" name="rating" value="2">:(</label>
-      <label class="radio-inline"><input type="radio" name="rating" value="3">:|</label> 
-      <label class="radio-inline"><input type="radio" name="rating" value="4">:)</label>
-      <label class="radio-inline"><input type="radio" name="rating" value="5">:))</label> 
-    </div>
-    
-    <input id="submit" name="submit" type="submit" value="Drop into Box" class="btn btn-primary">
-    
-  </form>  
-  
 </div>
 
 </body>
